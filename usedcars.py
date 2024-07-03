@@ -23,13 +23,13 @@ def print_query(view_name:str):
     db.close()
 menu_choice =''
 while menu_choice != '0':
-    menu_choice = input('\nWelcome to the Cars database\n\n'
-                        'Type the number for the query that you would like to see.:\n\n' 
+    menu_choice = input('\nWelcome to the Used Cars Database\n\n'
+                        'Type the number for the query that you would like to see.\n\n' 
                         '1: View all data\n'
                         '2: Cars produced after 2010\n'
                         '3: Cars produced before 2010\n'
-                        '4: Cars with 7 seats\n'
-                        '5: Safest cars\n'
+                        '4: Cars with most seating capacity\n'
+                        '5: Safest cars (ANCAP Safety Rating)\n'
                         '6: Most fuel efficient cars (litre per 100 kilometres)\n'
                         '0: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
